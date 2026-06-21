@@ -28,7 +28,7 @@ public class EdytorNotatek extends JFrame {
 
         // === NORTH – nagłówek aplikacji ===
         // Tworzenie komponentów
-        lblEdytorNotatek = new JLabel("Edytor Notatek");
+        lblEdytorNotatek = new JLabel("Edytor Notatek", SwingConstants.CENTER);
         // Dodawanie komponentów do panelu – kolejność dodawania = kolejność wyświetlania
         panel.add(lblEdytorNotatek, BorderLayout.NORTH);
 
